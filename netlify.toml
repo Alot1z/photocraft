@@ -1,3 +1,3 @@
 [build]
-  command = "command -v trunk >/dev/null 2>&1 || cargo install trunk --locked; cd apps/photocraft-web && trunk build --release"
+  command = "command -v trunk >/dev/null 2>&1 || cargo install trunk --locked --version 0.21.14; cd apps/photocraft-web && trunk build --release"
   publish = "dist/web"
